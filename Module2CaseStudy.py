@@ -9,8 +9,8 @@ print(gpa)
 
 #Checks if student qualifies
 if gpa >= 3.5:
-    print("Congrats, you qualify for the Dean's List!")
+    print("Congrats " + name + "you qualify for the Dean's List!")
 elif gpa >= 3.25:
-    print("Congrats, you qualify for the Honor Roll!")
+    print("Congrats " + name + ", you qualify for the Honor Roll!")
 else:
-    print("Sorry you do not qualify.")
+    print("Sorry " + name + ", you do not qualify.")
